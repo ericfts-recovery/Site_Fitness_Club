@@ -35,7 +35,7 @@ export function CookieBanner() {
         <button
           type="button"
           onClick={() => writeConsent('granted')}
-          className="min-h-11 rounded-full bg-volt px-4 text-sm font-bold text-ink hover:bg-bone"
+          className="min-h-11 rounded-full bg-volt px-4 text-sm font-bold text-on-volt hover:bg-bone hover:text-ink"
         >
           Aceitar todos
         </button>

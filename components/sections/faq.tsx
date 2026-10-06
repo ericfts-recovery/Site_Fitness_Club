@@ -20,7 +20,7 @@ export function Faq({ items, title = 'Perguntas frequentes', eyebrow = 'Dúvidas
             <details key={item.question} className="group">
               <summary className="flex min-h-16 cursor-pointer list-none items-center justify-between gap-6 py-5 text-lg font-bold transition-colors hover:text-volt [&::-webkit-details-marker]:hidden">
                 {item.question}
-                <span className="grid size-9 shrink-0 place-items-center rounded-full border border-line-strong transition-transform duration-300 group-open:rotate-45 group-open:border-volt group-open:bg-volt group-open:text-ink">
+                <span className="grid size-9 shrink-0 place-items-center rounded-full border border-line-strong transition-transform duration-300 group-open:rotate-45 group-open:border-volt group-open:bg-volt group-open:text-on-volt">
                   <Plus className="size-4" aria-hidden="true" />
                 </span>
               </summary>

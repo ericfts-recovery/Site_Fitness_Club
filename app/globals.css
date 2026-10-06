@@ -7,7 +7,8 @@
    Para adaptar à identidade do cliente, troque apenas estes tokens.
    ============================================================ */
 @theme {
-  --color-ink: #f3f1ea;
+  --color-ink: #0a0a0b;
+  --color-on-volt: #ffffff;
   --color-ink-2: #111113;
   --color-ink-3: #1a1a1e;
   --color-line: rgb(255 255 255 / 0.1);
@@ -70,7 +71,7 @@
   }
 
   ::selection {
-    @apply bg-volt text-ink;
+    @apply bg-volt text-on-volt;
   }
 
   :focus-visible {

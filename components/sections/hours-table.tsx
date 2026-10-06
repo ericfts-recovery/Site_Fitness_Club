@@ -20,7 +20,7 @@ export function HoursTable() {
               <th scope="row" className="py-5 pr-4 font-semibold">
                 {rule.label}
                 {isToday ? (
-                  <span className="ml-3 rounded-full bg-volt px-2.5 py-1 text-[0.65rem] font-bold tracking-widest text-ink uppercase">
+                  <span className="ml-3 rounded-full bg-volt px-2.5 py-1 text-[0.65rem] font-bold tracking-widest text-on-volt uppercase">
                     Hoje
                   </span>
                 ) : null}

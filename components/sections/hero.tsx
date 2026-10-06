@@ -105,7 +105,7 @@ export function Hero() {
           />
           {weekdayRule ? (
             <div className="absolute -bottom-5 left-4 flex items-center gap-3 rounded-[var(--radius-md)] border border-line-strong bg-ink-2 p-4 shadow-2xl sm:-left-6">
-              <span className="grid size-11 place-items-center rounded-full bg-volt text-ink">
+              <span className="grid size-11 place-items-center rounded-full bg-volt text-on-volt">
                 <Clock className="size-5" aria-hidden="true" />
               </span>
               <span className="leading-tight">

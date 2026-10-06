@@ -28,26 +28,26 @@ export function Modalities() {
               <li key={m.slug} className="reveal">
                 <Link
                   href={`/modalidades/${m.slug}`}
-                  className="group relative flex h-full min-h-80 flex-col overflow-hidden rounded-[var(--radius-xl)] border border-line bg-ink-2 p-7 transition-all duration-500 ease-snap hover:-translate-y-1 hover:border-volt hover:bg-volt hover:text-ink sm:p-8"
+                  className="group relative flex h-full min-h-80 flex-col overflow-hidden rounded-[var(--radius-xl)] border border-line bg-ink-2 p-7 transition-all duration-500 ease-snap hover:-translate-y-1 hover:border-volt hover:bg-volt hover:text-on-volt sm:p-8"
                 >
                   <div className="flex items-start justify-between">
-                    <span className="grid size-14 place-items-center rounded-full border border-line-strong text-volt transition-colors duration-500 group-hover:border-ink/20 group-hover:text-ink">
+                    <span className="grid size-14 place-items-center rounded-full border border-line-strong text-volt transition-colors duration-500 group-hover:border-on-volt/20 group-hover:text-on-volt">
                       <Icon className="size-6" aria-hidden="true" />
                     </span>
                     <span
                       aria-hidden="true"
-                      className="font-display text-5xl text-ink-3 transition-colors duration-500 group-hover:text-ink/15"
+                      className="font-display text-5xl text-ink-3 transition-colors duration-500 group-hover:text-on-volt/15"
                     >
                       {String(i + 1).padStart(2, '0')}
                     </span>
                   </div>
 
                   <div className="mt-auto pt-10">
-                    <p className="text-xs font-bold tracking-[0.2em] text-volt uppercase transition-colors duration-500 group-hover:text-ink/60">
+                    <p className="text-xs font-bold tracking-[0.2em] text-volt uppercase transition-colors duration-500 group-hover:text-on-volt/60">
                       {m.tagline}
                     </p>
                     <h3 className="display mt-3 text-5xl">{m.name}</h3>
-                    <p className="mt-3 text-mute transition-colors duration-500 group-hover:text-ink/75">
+                    <p className="mt-3 text-mute transition-colors duration-500 group-hover:text-on-volt/75">
                       {m.summary}
                     </p>
                     <span className="mt-6 inline-flex items-center gap-2 text-sm font-bold tracking-wide uppercase">

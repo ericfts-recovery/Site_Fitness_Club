@@ -118,7 +118,7 @@ export function LeadForm({ modalityOptions }: { modalityOptions: string[] }) {
           href={whatsappUrl(continueMessage)}
           event="cta_whatsapp_click"
           params={{ location: 'lead_success' }}
-          className="inline-flex min-h-12 items-center gap-2 rounded-full bg-volt px-6 text-sm font-bold tracking-wide text-ink uppercase"
+          className="inline-flex min-h-12 items-center gap-2 rounded-full bg-volt px-6 text-sm font-bold tracking-wide text-on-volt uppercase"
         >
           <WhatsappIcon className="size-5" />
           Continuar no WhatsApp
@@ -202,7 +202,7 @@ export function LeadForm({ modalityOptions }: { modalityOptions: string[] }) {
                   className="peer sr-only"
                   {...register('period')}
                 />
-                <span className="flex min-h-13 cursor-pointer items-center justify-center rounded-[var(--radius-md)] border border-line-strong text-sm font-semibold transition-colors peer-checked:border-volt peer-checked:bg-volt peer-checked:text-ink peer-focus-visible:outline-2 peer-focus-visible:outline-offset-2 peer-focus-visible:outline-volt">
+                <span className="flex min-h-13 cursor-pointer items-center justify-center rounded-[var(--radius-md)] border border-line-strong text-sm font-semibold transition-colors peer-checked:border-volt peer-checked:bg-volt peer-checked:text-on-volt peer-focus-visible:outline-2 peer-focus-visible:outline-offset-2 peer-focus-visible:outline-volt">
                   {period}
                 </span>
               </label>
@@ -269,7 +269,7 @@ export function LeadForm({ modalityOptions }: { modalityOptions: string[] }) {
         type="submit"
         disabled={isSubmitting}
         className={cn(
-          'inline-flex min-h-14 w-full items-center justify-center gap-2 rounded-full bg-volt px-7 font-bold tracking-wide text-ink uppercase transition-colors hover:bg-bone disabled:cursor-wait disabled:opacity-70',
+          'inline-flex min-h-14 w-full items-center justify-center gap-2 rounded-full bg-volt px-7 font-bold tracking-wide text-on-volt uppercase transition-colors hover:bg-bone hover:text-ink disabled:cursor-wait disabled:opacity-70',
         )}
       >
         {isSubmitting ? (

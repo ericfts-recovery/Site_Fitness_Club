@@ -13,7 +13,7 @@ export function Logo({
     <Link href="/" className={cn('group inline-flex min-h-11 items-center gap-2.5', className)}>
       <span
         aria-hidden="true"
-        className="grid size-9 place-items-center rounded-md bg-volt font-display text-xl text-ink transition-transform duration-300 group-hover:-rotate-6"
+        className="grid size-9 place-items-center rounded-md bg-volt font-display text-xl text-on-volt transition-transform duration-300 group-hover:-rotate-6"
       >
         F
       </span>

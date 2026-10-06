@@ -27,7 +27,7 @@ export function ModalitiesMarquee() {
       role="region"
       className="relative z-10 -my-2 overflow-hidden py-2"
     >
-      <div className="-rotate-[1.5deg] bg-volt py-4 text-ink">
+      <div className="-rotate-[1.5deg] bg-volt py-4 text-on-volt">
         <div className="flex w-max animate-marquee hover:[animation-play-state:paused]">
           <Row />
           <Row hidden />

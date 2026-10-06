@@ -19,7 +19,7 @@ export default function GlobalError({
           <button
             type="button"
             onClick={reset}
-            className="mt-8 min-h-12 rounded-full bg-volt px-6 font-bold text-ink"
+            className="mt-8 min-h-12 rounded-full bg-volt px-6 font-bold text-on-volt"
           >
             Recarregar
           </button>

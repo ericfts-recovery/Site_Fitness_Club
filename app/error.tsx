@@ -30,7 +30,7 @@ export default function ErrorPage({
           <button
             type="button"
             onClick={reset}
-            className={cn(buttonBase, 'min-h-14 bg-volt px-7 text-ink hover:bg-bone')}
+            className={cn(buttonBase, 'min-h-14 bg-volt px-7 text-on-volt hover:bg-bone hover:text-ink')}
           >
             <RotateCcw className="size-5" aria-hidden="true" />
             Tentar novamente

@@ -27,7 +27,7 @@ export function Plans() {
                 className={cn(
                   'reveal relative flex flex-col rounded-[var(--radius-xl)] border p-8 sm:p-10',
                   featured
-                    ? 'border-volt bg-volt text-ink lg:-my-4 lg:py-14'
+                    ? 'border-volt bg-volt text-on-volt lg:-my-4 lg:py-14'
                     : 'border-line bg-ink-2',
                 )}
               >
@@ -39,7 +39,7 @@ export function Plans() {
                 <h3 className="eyebrow">{plan.name}</h3>
                 <p className="mt-5 flex items-baseline gap-1">
                   <span className="display text-6xl">{plan.price}</span>
-                  <span className={featured ? 'text-ink/70' : 'text-mute'}>{plan.period}</span>
+                  <span className={featured ? 'text-on-volt/70' : 'text-mute'}>{plan.period}</span>
                 </p>
                 <ul className="mt-8 space-y-3">
                   {plan.features.map((feature) => (
@@ -47,11 +47,11 @@ export function Plans() {
                       <Check
                         className={cn(
                           'mt-0.5 size-5 shrink-0',
-                          featured ? 'text-ink' : 'text-volt',
+                          featured ? 'text-on-volt' : 'text-volt',
                         )}
                         aria-hidden="true"
                       />
-                      <span className={featured ? 'text-ink/85' : 'text-mute'}>{feature}</span>
+                      <span className={featured ? 'text-on-volt/85' : 'text-mute'}>{feature}</span>
                     </li>
                   ))}
                 </ul>

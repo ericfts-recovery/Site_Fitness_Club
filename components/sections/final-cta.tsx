@@ -14,11 +14,11 @@ export function FinalCta({
   return (
     <section
       aria-labelledby="cta-final-title"
-      className="relative overflow-hidden bg-volt py-20 text-ink sm:py-28"
+      className="relative overflow-hidden bg-volt py-20 text-on-volt sm:py-28"
     >
       <span
         aria-hidden="true"
-        className="display pointer-events-none absolute -right-6 -bottom-10 text-[12rem] whitespace-nowrap text-ink/[0.06] sm:text-[20rem]"
+        className="display pointer-events-none absolute -right-6 -bottom-10 text-[12rem] whitespace-nowrap text-on-volt/[0.06] sm:text-[20rem]"
       >
         Fitness Club
       </span>
@@ -26,7 +26,7 @@ export function FinalCta({
         <h2 id="cta-final-title" className="display max-w-4xl text-[clamp(3.25rem,13vw,9rem)]">
           Bora treinar?
         </h2>
-        <p className="mt-6 max-w-xl text-lg font-medium text-ink/80">
+        <p className="mt-6 max-w-xl text-lg font-medium text-on-volt/80">
           Seu próximo nível começa com uma decisão. Agende sua aula experimental e venha conhecer a
           Fitness Club.
         </p>

@@ -6,7 +6,7 @@ import { cn } from '@/lib/cn'
 
 const variants = {
   primary:
-    'bg-volt text-ink hover:bg-bone shadow-[0_0_0_0_rgb(207_30_59/0)] hover:shadow-[0_10px_40px_-10px_rgb(207_30_59/0.6)]',
+    'bg-volt text-on-volt hover:bg-bone hover:text-ink shadow-[0_0_0_0_rgb(207_30_59/0)] hover:shadow-[0_10px_40px_-10px_rgb(207_30_59/0.6)]',
   secondary: 'border border-line-strong text-bone hover:border-bone hover:bg-bone hover:text-ink',
   dark: 'bg-ink text-bone hover:bg-ink-3',
   light: 'border border-ink/20 text-ink hover:bg-ink hover:text-bone',

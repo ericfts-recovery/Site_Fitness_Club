@@ -71,7 +71,7 @@ export function MobileNav() {
           href={whatsappUrl()}
           event="cta_trial_click"
           params={{ location: 'mobile_menu' }}
-          className="mt-auto flex min-h-14 items-center justify-center gap-2 rounded-full bg-volt font-bold tracking-wide text-ink uppercase"
+          className="mt-auto flex min-h-14 items-center justify-center gap-2 rounded-full bg-volt font-bold tracking-wide text-on-volt uppercase"
         >
           <WhatsappIcon className="size-5" />
           {site.trialCta}
