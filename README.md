@@ -6,16 +6,16 @@ Site da **Fitness Club Canoas** (academia na Av. Boqueirão, 2151 · Estância V
 
 ## Stack
 
-| Camada | Escolha |
-| --- | --- |
-| Framework | Next.js 16 (App Router, Server Components, Server Actions) |
-| Linguagem | TypeScript (`strict` + `noUncheckedIndexedAccess`) |
-| Estilo | Tailwind CSS 4 com design tokens em `app/globals.css` (`@theme`) |
-| Formulário | React Hook Form + Zod (schema único no cliente e no servidor) |
-| E-mail | Resend via API REST (sem SDK) |
-| Fontes | Anton + Manrope auto-hospedadas com `next/font/local` |
-| Ícones | lucide-react (+ SVGs próprios para WhatsApp/Instagram) |
-| Deploy | Vercel |
+| Camada     | Escolha                                                          |
+| ---------- | ---------------------------------------------------------------- |
+| Framework  | Next.js 16 (App Router, Server Components, Server Actions)       |
+| Linguagem  | TypeScript (`strict` + `noUncheckedIndexedAccess`)               |
+| Estilo     | Tailwind CSS 4 com design tokens em `app/globals.css` (`@theme`) |
+| Formulário | React Hook Form + Zod (schema único no cliente e no servidor)    |
+| E-mail     | Resend via API REST (sem SDK)                                    |
+| Fontes     | Anton + Manrope auto-hospedadas com `next/font/local`            |
+| Ícones     | lucide-react (+ SVGs próprios para WhatsApp/Instagram)           |
+| Deploy     | Vercel                                                           |
 
 > **Por que `next/font/local` em vez de `next/font/google`?** As fontes ficam no repositório (subconjunto latin, ~43 KB no total), o build não depende de rede externa e nenhum dado do visitante vai para servidores do Google (LGPD).
 
@@ -39,13 +39,13 @@ npm run format      # Prettier (+ ordenação de classes Tailwind)
 
 ## Variáveis de ambiente
 
-| Variável | Obrigatória | Descrição |
-| --- | --- | --- |
-| `NEXT_PUBLIC_SITE_URL` | Sim | URL pública, sem barra final. Usada em canonical, sitemap, OG e JSON-LD. |
-| `NEXT_PUBLIC_GA_ID` | Não | ID do GA4 (`G-XXXX`). Só carrega após o consentimento de cookies. |
-| `RESEND_API_KEY` | Sim (para o formulário) | Chave secreta do Resend. Nunca usar prefixo `NEXT_PUBLIC_`. |
-| `LEAD_TO_EMAIL` | Sim (para o formulário) | E-mail da recepção que recebe os pedidos. |
-| `LEAD_FROM_EMAIL` | Sim (para o formulário) | Remetente com domínio verificado no Resend. |
+| Variável               | Obrigatória             | Descrição                                                                |
+| ---------------------- | ----------------------- | ------------------------------------------------------------------------ |
+| `NEXT_PUBLIC_SITE_URL` | Sim                     | URL pública, sem barra final. Usada em canonical, sitemap, OG e JSON-LD. |
+| `NEXT_PUBLIC_GA_ID`    | Não                     | ID do GA4 (`G-XXXX`). Só carrega após o consentimento de cookies.        |
+| `RESEND_API_KEY`       | Sim (para o formulário) | Chave secreta do Resend. Nunca usar prefixo `NEXT_PUBLIC_`.              |
+| `LEAD_TO_EMAIL`        | Sim (para o formulário) | E-mail da recepção que recebe os pedidos.                                |
+| `LEAD_FROM_EMAIL`      | Sim (para o formulário) | Remetente com domínio verificado no Resend.                              |
 
 Sem as variáveis do Resend, o formulário mostra uma mensagem de erro amigável e direciona o visitante ao WhatsApp, para nenhum lead se perder em silêncio.
 
