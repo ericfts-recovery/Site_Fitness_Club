@@ -23,7 +23,7 @@ export function LeadSection() {
     >
       <div
         aria-hidden="true"
-        className="absolute -top-80 -right-80 -z-10 size-[64rem] bg-[radial-gradient(circle,rgb(212_255_58/0.1),transparent_65%)]"
+        className="absolute -top-80 -right-80 -z-10 size-[64rem] bg-[radial-gradient(circle,rgb(207_30_59/0.1),transparent_65%)]"
       />
       <Container className="grid gap-12 lg:grid-cols-12 lg:gap-16">
         <div className="lg:col-span-5">

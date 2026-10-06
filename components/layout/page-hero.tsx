@@ -28,7 +28,7 @@ export function PageHero({
       />
       <div
         aria-hidden="true"
-        className="absolute -top-80 -left-80 -z-10 size-[56rem] bg-[radial-gradient(circle,rgb(212_255_58/0.14),transparent_65%)]"
+        className="absolute -top-80 -left-80 -z-10 size-[56rem] bg-[radial-gradient(circle,rgb(207_30_59/0.14),transparent_65%)]"
       />
       <Container className="pt-8 pb-16 sm:pb-20">
         <Breadcrumbs items={breadcrumbs} />

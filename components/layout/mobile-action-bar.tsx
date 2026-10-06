@@ -38,7 +38,7 @@ export function MobileActionBar() {
         event="cta_whatsapp_click"
         params={{ location: 'floating_button' }}
         aria-label="Falar com a Fitness Club no WhatsApp"
-        className="fixed right-6 bottom-6 z-40 hidden size-16 place-items-center rounded-full bg-volt text-ink shadow-[0_12px_40px_-8px_rgb(212_255_58/0.55)] transition-transform duration-300 hover:scale-105 md:grid"
+        className="fixed right-6 bottom-6 z-40 hidden size-16 place-items-center rounded-full bg-volt text-ink shadow-[0_12px_40px_-8px_rgb(207_30_59/0.55)] transition-transform duration-300 hover:scale-105 md:grid"
       >
         <WhatsappIcon className="size-7" />
       </TrackedLink>

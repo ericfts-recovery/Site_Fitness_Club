@@ -28,7 +28,7 @@ export function Hero() {
       />
       <div
         aria-hidden="true"
-        className="absolute -top-72 -left-72 -z-10 size-[60rem] bg-[radial-gradient(circle,rgb(212_255_58/0.16),transparent_65%)]"
+        className="absolute -top-72 -left-72 -z-10 size-[60rem] bg-[radial-gradient(circle,rgb(207_30_59/0.16),transparent_65%)]"
       />
 
       <Container className="grid items-center gap-12 pt-10 pb-16 sm:pt-16 lg:grid-cols-12 lg:gap-8 lg:pt-20 lg:pb-24">

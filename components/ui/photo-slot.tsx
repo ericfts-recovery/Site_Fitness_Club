@@ -37,7 +37,7 @@ export function PhotoSlot({
         />
       ) : (
         <div className="stripes absolute inset-0 flex flex-col items-center justify-center gap-3 p-6 text-center">
-          <div className="absolute inset-0 bg-[radial-gradient(ellipse_at_30%_20%,rgb(212_255_58/0.14),transparent_60%)]" />
+          <div className="absolute inset-0 bg-[radial-gradient(ellipse_at_30%_20%,rgb(207_30_59/0.14),transparent_60%)]" />
           <Camera className="relative size-7 text-mute" aria-hidden="true" />
           <p className="relative max-w-56 text-xs font-semibold tracking-wider text-mute uppercase">
             [Foto: {hint}]

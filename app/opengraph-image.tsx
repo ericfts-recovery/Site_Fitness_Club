@@ -19,7 +19,7 @@ export default async function OpengraphImage() {
         flexDirection: 'column',
         justifyContent: 'space-between',
         padding: 72,
-        background: '#0a0a0b',
+        background: '#f3f1ea',
         color: '#f3f1ea',
         fontFamily: 'Anton',
       }}
@@ -30,8 +30,8 @@ export default async function OpengraphImage() {
             width: 64,
             height: 64,
             borderRadius: 12,
-            background: '#d4ff3a',
-            color: '#0a0a0b',
+            background: '#cf1e3b',
+            color: '#f3f1ea',
             display: 'flex',
             alignItems: 'center',
             justifyContent: 'center',
@@ -44,7 +44,7 @@ export default async function OpengraphImage() {
       </div>
       <div style={{ display: 'flex', flexDirection: 'column', fontSize: 132, lineHeight: 0.9 }}>
         <span>TREINE FORTE.</span>
-        <span style={{ color: '#d4ff3a' }}>EVOLUA DE VERDADE.</span>
+        <span style={{ color: '#cf1e3b' }}>EVOLUA DE VERDADE.</span>
       </div>
       <div style={{ fontSize: 30, color: '#a6a6ad', letterSpacing: 1 }}>
         AV. BOQUEIRÃO, 2151 · ESTÂNCIA VELHA · SEG–SEX 5H ÀS 23H

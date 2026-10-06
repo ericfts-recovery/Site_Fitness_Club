@@ -7,7 +7,7 @@
    Para adaptar à identidade do cliente, troque apenas estes tokens.
    ============================================================ */
 @theme {
-  --color-ink: #0a0a0b;
+  --color-ink: #f3f1ea;
   --color-ink-2: #111113;
   --color-ink-3: #1a1a1e;
   --color-line: rgb(255 255 255 / 0.1);
@@ -17,8 +17,8 @@
   --color-mute: #a6a6ad;
   --color-mute-dark: #55555c;
 
-  --color-volt: #d4ff3a;
-  --color-volt-deep: #b8e016;
+  --color-volt: #cf1e3b;
+  --color-volt-deep: #a8182f;
   --color-ember: #ff5b23;
 
   --radius-sm: 0.5rem;
@@ -42,10 +42,10 @@
 
   @keyframes pulse-dot {
     0% {
-      box-shadow: 0 0 0 0 rgb(212 255 58 / 0.55);
+      box-shadow: 0 0 0 0 rgb(207 30 59 / 0.55);
     }
     100% {
-      box-shadow: 0 0 0 10px rgb(212 255 58 / 0);
+      box-shadow: 0 0 0 10px rgb(207 30 59 / 0);
     }
   }
 }

@@ -30,7 +30,7 @@ export function Schedule() {
         <div className="relative flex flex-col justify-between overflow-hidden rounded-[var(--radius-xl)] border border-line bg-ink-2 p-8 sm:p-10">
           <div
             aria-hidden="true"
-            className="absolute -right-40 -bottom-40 size-[28rem] bg-[radial-gradient(circle,rgb(212_255_58/0.12),transparent_65%)]"
+            className="absolute -right-40 -bottom-40 size-[28rem] bg-[radial-gradient(circle,rgb(207_30_59/0.12),transparent_65%)]"
           />
           <div className="relative">
             <h3 className="display text-4xl sm:text-5xl">Aulas coletivas</h3>
